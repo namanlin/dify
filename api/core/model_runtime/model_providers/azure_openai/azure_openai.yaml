@@ -88,6 +88,12 @@ model_credential_schema:
             - variable: __model_type
               value: llm
         - label:
+            en_US: gpt-4o
+          value: gpt-4o
+          show_on:
+            - variable: __model_type
+              value: llm
+        - label:
             en_US: gpt-4
           value: gpt-4
           show_on:
